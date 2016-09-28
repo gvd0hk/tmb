@@ -1,0 +1,229 @@
+@font-face {
+	font-family: 'Conv_PSL-Kanda';
+	src: url('../fonts/PSL-Kanda.eot');
+	src: url('../fonts/PSL-Kanda.wotf') format('wotf'), url('../fonts/PSL-Kanda.ttf') format('truetype'), url('../fonts/PSL-Kanda.svg') format('svg');
+}
+@font-face {
+	font-family: 'Conv_PSL-KandaBold';
+	src: url('../fonts/PSL-KandaBold.eot');
+	src: url('../fonts/PSL-KandaBold.wotf') format('wotf'), url('../fonts/PSL-KandaBold.ttf') format('truetype'), url('../fonts/PSL-KandaBold.svg') format('svg');
+}
+
+input[type="text"] {
+	width: 100%;
+	height: 40px;
+	padding: 0 10px;
+	font-size: 14px;
+	border: 1px solid #0078C0;
+}
+input[type="password"] {
+	width: 100%;
+	height: 40px;
+	padding: 0 10px;
+	font-size: 14px;
+	border: 1px solid #0078C0;
+}
+input[type="text"]:focus {
+	border: 2px solid #1abc9d;
+	letter-spacing: 0.05em;
+}
+input[type="password"]:focus {
+	border: 2px solid #1abc9d;
+	letter-spacing: 0.05em;
+}
+#btn-submit {
+	width: 200px;
+	height: 50px;
+	color: #FFF;
+	background-color: #0078C0;
+}
+#btn-reset {
+	width: 200px;
+	height: 50px;
+	color: #FFF;
+	border-color: #888;
+	background-color: #888;
+}
+.hr {
+	width: 90%;
+	border: 0.1em solid #0078C0;
+}
+.clear {
+	clear: both;
+}
+.content {
+	width: 100%;
+	background-color: #FFF;
+}
+.box-banner {
+	height: 45%;
+	background-color: #0078C0;
+}
+.box-form {
+	padding: 20px;
+}
+.header-form {
+	font-family: 'Conv_PSL-KandaBold';
+	font-size: 2.2em;
+	color: #0078C0;
+	text-align: center;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+.sub-header-form {
+	font-family: 'Conv_PSL-KandaBold';
+	font-size: 18pt;
+	color: #0078C0;
+	text-align: center;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+.form-register {
+	display: block;
+	width: 100%;
+	background-color: #FFF;
+	padding: 20px 10px 10px 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.label_register {
+	display: -webkit-box;
+	color: #0078C0;
+	text-align: center;
+	padding: 0 20px;
+	margin-left: 0;
+	font-size: 1em;
+	letter-spacing: 0.02em;
+}
+.box-maxxbook {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+	margin-bottom: 5%;
+}
+.box-maxxbook img {
+	width: 100%;
+}
+.box-option {
+	width: 90%;
+	margin: 0 auto;
+}
+.box-option .book {
+	width: 50%;
+	padding: 0 20px 20px 20px;
+	border: 2px solid #0078C0;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.box-option .book h3 {
+	margin: 20px 0;
+	color: #0078C0;
+}
+.box-option .book label {
+	display: inline-block;
+	padding: 3px 15px;
+	margin: 0;
+	font-size: 15px;
+	color: #0078C0;
+} 
+.box-option .movie {
+	width: 50%;
+	padding: 0 20px 20px 20px;
+	border: 2px solid #0078C0;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.box-option .movie h3 {
+	margin: 20px 0;
+	color: #0078C0;
+}
+.box-option .movie label {
+	display: inline-block;
+	padding: 3px 15px;
+	margin: 0;
+	font-size: 15px;
+	color: #0078C0;
+}
+.box-book-movie {
+	width: 90%;
+	margin: 0 auto;
+	border: 2px solid #0078C0;
+}
+.box-book-movie h2 {
+	margin: 30px 20px;
+	color: #0078C0;
+}
+.box-book {
+	width: 90%;
+	margin: 20px;
+}
+.box-book h4 {
+	margin: 20px 0;
+	color: #0078C0;
+}
+.box-book .show-book {
+	margin: 10px;
+}
+.box-movie {
+	width: 90%;
+	margin: 20px;
+}
+.box-movie h4 {
+	margin: 20px 0;
+	color: #0078C0;
+}
+.box-image { 
+	display: block;
+	width: auto;
+	height: 170px;
+	margin: auto;
+	transition: 
+	margin-top 0.3s ease,
+	margin-left 0.3s ease,
+	box-shadow 0.3s ease;
+	background: #03A9F4;
+	border: solid 1px #D1D3D4;
+	box-shadow: 
+	1px 0px 0px #D1D3D4,0px 1px 0px #D1D3D4,
+	2px 1px 0px #D1D3D4,1px 2px 0px #D1D3D4,
+	3px 2px 0px #D1D3D4,2px 3px 0px #D1D3D4,
+	4px 3px 0px #D1D3D4,3px 4px 0px #D1D3D4,
+	5px 4px 0px #D1D3D4,4px 5px 0px #D1D3D4,
+	6px 5px 0px #D1D3D4,5px 6px 0px #D1D3D4,
+	7px 6px 0px #D1D3D4,6px 7px 0px #D1D3D4,
+	8px 7px 0px #D1D3D4,7px 8px 0px #D1D3D4,
+	9px 8px 0px #D1D3D4,8px 9px 0px #D1D3D4;
+}
+.box-image:active {
+	transition: 
+	margin-top 0.3s ease,
+	margin-left 0.3s ease,
+	box-shadow 0.3s ease;
+	margin-left: 9px;
+	margin-top: 9px;
+	box-shadow: 0px 0px 0px #D1D3D4;
+}
+.copyright {
+	width: 90%;
+	margin: 10px;
+	font-size: 14px;
+	text-align: center;
+	color: #0078C0;
+}
+.copyright img {
+	height: 1.5em;
+}
+
+@media (max-width: 768px) {
+	#btn-submit {
+		display: block;
+		margin-top: -140px;
+		margin-bottom: 70px;
+	}
+	#btn-reset {
+		display: block;
+		margin-top: 80px;
+		margin-bottom: 20px;
+	}
+}
